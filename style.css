@@ -1,0 +1,160 @@
+body {
+    font-family: sans-serif;
+}
+
+h1{
+    color:lime;
+
+    border-radius: 20%;
+    font-size: 70px;
+    margin: 10px;
+     background-image: linear-gradient(to right,  forestgreen,greenyellow);
+    
+}
+
+h1:hover{
+ background-image: linear-gradient(to right, greenyellow, forestgreen);
+transition: 3s  linear;
+}
+.himg{
+    height: 160px;
+    float: right;
+    opacity: 0.8;
+    z-index: 0;
+}
+.himg:hover{
+    height: 200px;
+    float: right; 
+    z-index: 1;
+    opacity: 1;
+    transition: 3s  linear;
+}
+img{
+  height: 190px;  
+  left: 250px;
+}
+
+.im p{
+    display: inline;
+    position: absolute;
+    top: 250px;
+    font-size: 25px;
+    font-weight: 700;
+    color: greenyellow;
+    background-color: olivedrab;
+}
+
+.hh {
+    height: 500px;  
+  left: 550px; 
+  opacity: 1;
+}
+.hh:hover{
+     opacity: 0.8;
+}
+ 
+.imnn{
+height: 250px;  
+  left: 300px; 
+    float: right;
+     opacity: 0.5;
+}
+.imnn:hover{
+    opacity: 1;
+}
+
+P {
+ top: 250px;
+    font-size: 25px;
+    color: greenyellow;
+      background-color: olivedrab;
+       
+    font-weight: 600
+}
+
+.i {
+  height: 500px;  
+  left: 550px; 
+    float: right;  
+}
+
+.h {
+   color:black;
+   background-color:blueviolet;
+    border-radius: 20%;
+    font-size: 70px;
+    margin: 10px; 
+     
+}
+
+.h:hover{
+    color:blueviolet;
+    background-color:black ;
+     transition: 3s  linear;
+}
+
+.mm{
+  height: 500px;  
+  left: 650px;   
+}
+
+.o{
+     color: greenyellow;
+    background-color: forestgreen;
+    border-radius: 20%;
+    font-size: 70px;
+    margin: 10px;   
+}
+
+.o:hover{
+    color: forestgreen;
+    background-color: greenyellow;
+      transition: 3s  linear;
+
+}
+
+.pn{
+  height: 500px;  
+  left: 550px; 
+    float: right;   
+}
+
+.mv{
+  height: 300px;  
+  left: 350px; 
+   opacity: 0.5;
+    transition: 3s  linear;
+}
+
+.mv:hover{
+ opacity: 1;
+ height: 400px;  
+  left: 450px; 
+  transition: 2s  linear;
+     box-shadow: 5px 5px 15px 0px gold; 
+
+}
+
+.vn{
+ opacity: 1; 
+  color: forestgreen;
+    background-color: greenyellow;
+
+}
+
+.vn:hover{
+  opacity: 0.5;
+}
+
+ul{
+   font-size: 30px;
+    padding: 20px;
+    margin: 20px;
+     color:forestgreen;
+     background-color:greenyellow;
+  
+}
+
+li{
+   list-style: url(/uploads/2021/01/%D0%BD%D0%BE%D1%82%D0%B0_0_1610638133.svg) ;   
+}
